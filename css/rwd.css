@@ -59,13 +59,26 @@ h3 { font: 16px/ 22px Trocchi, sans-serif; text-transform: uppercase; color: #46
 .use-cases .sample-apps .videowall { background: url("../assets/images/wall.png") 10px 60px no-repeat; }
 .use-cases .sample-apps .btn-default { margin-top: 160px; }
 
-.lt-mint { background-color: #ecf7f8; }
-
-
 #footer { border-top: #ddd; margin: 60px 0 30px 0; padding: 0 10px; }
 #footer p { font: 12px/17px Sintony, sans-serif; color: #333; margin-bottom: 12px; }
 #footer p a { color: #5a94a2; display: block; }
 #footer p a:hover { text-decoration: none; }
 #footer p.brand a { display: inline; font: 24px/34px Sintony, sans-serif; color: #000; }
 #footer .btn-default { height: 40px; background-color: #f27155; border: none; border-radius: 3px; color: #fff; margin-bottom: 6px; }
+
+
+/*  -----------  */
+/*  Testimonial  */
+/*  -----------  */
+.lt-mint { background-color: #ecf7f8; }
+.aqua { background-color: #a7d9dd; padding: 120px 0;}
+.grey-green { background-color: #97b8c1; }
+.testimonial { padding: 30px 0; }
+.testimonial .silhouette-01 { background: url("../assets/images/silhouette-01.png") center center no-repeat; padding: 115px 60px; }
+.testimonial .silhouette-02 { background: url("../assets/images/silhouette-02.png") center center no-repeat; padding: 115px 60px; }
+.testimonial .silhouette-03 { background: url("../assets/images/silhouette-03.png") center center no-repeat; padding: 115px 60px; }
+.testimonial .quote { font: 30px/40px Sintony, 'Helvetica Neue', Helvetica, sans-serif; margin-bottom: 30px; color: #fff; } 
+.testimonial .byline-name { font: 700 18px/24px Sintony, 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #057; letter-spacing: .03em; text-transform: uppercase; margin-bottom: 4px;}
+.testimonial .byline-description { color: #555; }
+
 

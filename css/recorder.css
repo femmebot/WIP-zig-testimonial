@@ -1,0 +1,24 @@
+/* recorder.css */
+
+#ziggeo-recorder .ziggeo-recorder-container { border: 1px solid #ccc; margin: 20px auto; padding: 20px 10px; width: 320px; height: auto; position: relative; }
+#ziggeo-recorder .ziggeo-recorder-container .video-unit { max-width: 300px; height: auto; margin: 10px auto; overflow: hidden;  }
+#ziggeo-recorder .ziggeo-recorder-container .ziggeo-help { font: 12px/15px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; text-align: right; }
+#ziggeo-recorder .ziggeo-recorder-container .ziggeo-help a { font-size: 11px; color: #333; text-decoration: none; }
+#ziggeo-recorder .ziggeo-recorder-container .ziggeo-help i { font-size: 14px; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard { position: absolute; background: transparent url(../assets/images/bg-tile.png) 0 0 repeat-x; width: 300px; height: 60px; bottom: 50px; z-index: 9999; /* opacity: .9; */ }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard p { font: 500 12px/30px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; margin-top: 10px; }
+
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-record { color: #333; text-decoration: none; padding: 0 20px; margin: 10px 10px 0 10px; background-color: #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard a.btn-record:hover { background-color: #f00; color: #fff; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-record i.fa-circle { font-size: 11px; }
+
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link { text-decoration: none; margin: 10px 0 10px 10px; padding: 0 12px; line-height: 27px; height: 30px; color: #fff; border: 1px solid #ddd; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard a.btn-link:hover { background-color: #333; border: 1px solid #999; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link.disable { display: none; }
+
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link .help-text { position: relative; display: none; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard a.btn-link:hover .help-text { font: 10px/12px Helvetica, Arial; color: #000; position: absolute; top: 64px; margin-left: -20px; max-width: 210px; display: block; padding: 6px; background-color: #fff; opacity: .8; z-index: 99999; }
+
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link i.fa-circle { font-size: 11px; color: #fff; }
+#ziggeo-recorder .ziggeo-recorder-container .dashboard .btn-link i.fa-circle.off { color: #f00; }
+

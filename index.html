@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    
+
+    <title>Ziggeo</title>
+
+    <!-- Custom fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Sintony:400,700|Oswald:400,300,700|Trocchi' rel='stylesheet' type='text/css'>
+	<link href='http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/rwd.css" rel="stylesheet">
+    
+    <!-- Custom fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Sintony:400,700|Oswald:400,300,700|Trocchi' rel='stylesheet' type='text/css'>
+	<link href='http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet'>
+	
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="assets/images/logo-bw-sm.png"/></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Showcase</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li class="dropdown">
+              <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Dev Resources <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Get your API Key</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Reference</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Community</li>
+                <li><a href="#">StackExchange</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html#">Log in</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div class="container-fluid heading">
+		<div class="container">
+			<h1>Discover who&rsquo;s really out there</h1>
+			<p class="subhead">The API for video recording/playback <button type="button" class="btn btn-strong">Try Demo</button></p>
+<!-- 
+			<button type="button" class="btn btn-strong">Try Demo</button>
+ -->
+ 			<a href="#Examples" class="more-content hidden-sm hidden-xs"><img src="assets/images/more.png"></a>
+		</div>
+	</div>
+	<div id="hero-movie" class="jumbotron">
+		<video autoplay loop poster="assets/video/hero-movie.png" id="bgvid" class="hidden-xs">
+			<source src="assets/video/hero-movie.mp4" type="video/mp4">
+			<source src="assets/video/hero-movie.webm" type="video/webm">
+			<source src="assets/video/hero-movie.ogv" type="video/ogg">
+		</video>
+	</div>
+	<a id="Examples"></a>
+
+	<div class="jumbotron small-video visible-xs"></div>
+	
+	<div class="container-fluid sample-apps">
+
+		<div class="container">
+
+<!-- 
+			<div class="row">
+				<div class="col-xs-4 lede">
+					<h1><strong>Ziggeo</strong> The simple API for video recording and playback</h1>
+					<p><button type="button" class="btn btn-strong">Try Demo</button></p>
+				</div>
+			</div>
+ -->
+	<!-- 
+			<h2>Sample Applications</h2>
+	 -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3 reviews">
+					<h3>Video Reviews</h3>
+					<p>Leads to exponentially higher sales</p>
+					<p><button type="button" class="btn btn-default">Try Demo</button></p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 messages">
+					<h3>Video Messages</h3>
+					<p>Send & receive asynchronously</p>
+					<p><button type="button" class="btn btn-default">Try Demo</button></p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 comments">
+					<h3>Video Comments</h3>
+					<p>Add video to increase engagement</p>
+					<p><button type="button" class="btn btn-default">Try Demo</button></p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 profiles">
+					<h3>Video Profiles</h3>
+					<p>Bring life to your community</p>
+					<p><button type="button" class="btn btn-default">Try Demo</button></p>
+				</div>
+			</div>
+		
+		</div>
+	</div><!-- /sample-apps -->
+
+	<div class="container features-pricing">
+
+		<div class="row">
+			<div class="col-xs-12 col-md-6">
+				<h2>Robust API</h2>
+				<ul>
+					<li>Works on all browsers and devices</li>
+					<li>Hosting and transcoding</li>
+					<li>Easy integration</li>
+					<li>Security</li>
+				</ul>
+				<p><button type="button" class="btn btn-default">View Features</button></p>
+			</div>
+			<div class="clearfix visible-xs"></div>
+			<div class="col-xs-12 col-md-6">
+				<h2>Pricing</h2>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4 price-wrapper">
+						<h4>Recording</h4>
+						<p class="price">2.5<sup>¢</sup></p>
+						<p class="caption">per minute</p>
+					</div>
+					<div class="clearfix visible-xs"></div>
+					<div class="col-xs-12 col-sm-4 col-md-4 price-wrapper">
+						<h4>Playback</h4>
+						<p class="price">0.1<sup>¢</sup></p>
+						<p class="caption">per minute</p>
+					</div>
+					<div class="clearfix visible-xs"></div>
+					<div class="col-xs-12 col-sm-4 col-md-4 price-wrapper">
+						<h4>Storage</h4>
+						<p class="price">0.2<sup>¢</sup></p>
+						<p class="caption">per minute / month</p>
+					</div>
+				<div class="clearfix visible-xs"></div>
+				</div>
+				<p><button type="button" class="btn btn-default">View Pricing</button></p>
+			</div>
+		</div>	
+
+	</div><!-- /features-pricing -->
+
+	<div class="container-fluid lt-mint">
+		<div class="container">
+			<div class="row">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+			</div>
+		</div>
+	</div>
+
+    <div class="container-fluid use-cases">
+    
+    	<div class="container">
+    		<div class="row">
+				<div class="col-sm-12">
+					<div class="container sample-apps">
+						<div class="row">
+							<div class="col-md-4 wordpress">
+								<h3>WordPress Plugin</h3>
+								<p>Video blog, video comments</p>
+								<p><button type="button" class="btn btn-default">Get the Plugin</button></p>
+							</div>
+							<div class="col-md-4 recruitment">
+								<h3>Recruitment Tool</h3>
+								<p>Candidates submit videos</p>
+								<p><button type="button" class="btn btn-default">Get the Code</button></p>
+							</div>
+							<div class="col-md-4 videowall">
+								<h3>Video Wall</h3>
+								<p>Display videos</p>
+								<p><button type="button" class="btn btn-default">Get the Code</button></p>
+							</div>						
+						</div>
+					</div>
+					<p>
+						<span class="caps">More places to use Ziggeo:</span><br/>
+						<a href="#" class="first">Recruiting</a>  &bull;  
+						<a href="#">E-commerce</a>  &bull; 
+						<a href="#">Lifestyle</a>  &bull; 
+						<a href="#">Education</a>  &bull;  
+						<a href="#">Media</a>
+				</div>
+			</div>
+		</div>
+    
+    </div> <!-- /use-cases -->
+
+
+    <div id="footer">
+      <div class="container">
+      	<div class="row">
+      		<div class="col-sm-3">
+				<p class="brand"><a href="#">Ziggeo</a><br>&copy;2013-2014</p>
+			</div>
+      		<div class="col-sm-3">
+				<p><a href="#">About</a></p>
+				<p><a href="#">Terms of Service</a></p>
+				<p><a href="#">Privacy Policy</a></p>
+				<p><a href="#">Acceptable Use Policy</a></p>
+			</div>
+      		<div class="col-sm-3">
+				<p><button type="button" class="btn btn-default">Contact Sales</button></p>
+				<p>Stay Notified:</p>
+				<p><a href="#">Sign up for our Newsletter</a></p>
+			</div>
+      		<div class="col-sm-3">
+				<p><a href="#"><i class="fa fa-envelope"></i> Email</a></p>
+				<p><a href="#"><i class="fa fa-tumblr-square"></i> Blog</a></p>
+				<p><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></p>
+				<p><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></p>
+			</div>		
+		</div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="assets/scripts/scroller.js"></script>
+  </body>
+</html>
